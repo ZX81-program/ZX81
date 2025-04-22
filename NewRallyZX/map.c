@@ -326,19 +326,19 @@ unsigned char randum()
     #asm
         ld      a, (_randum_val)
 
-	    rlca
-	    rlca
-	    rlca
-	    rlca
-	    ld	l,a
-	    ld	a,r
-	    add	a,l
-	    ld	(_randum_val),a
+        rlca
+        rlca
+        rlca
+        rlca
+        ld	l,a
+        ld	a,r
+        add	a,l
+        ld	(_randum_val),a
 
-	    ld	h,0
-	    ld	l,a
+        ld	h,0
+        ld	l,a
 
-	    ret
+        ret
     #endasm
 }
 
@@ -513,8 +513,8 @@ unsigned char getflddir(int fldy, int fldx)
         add     hl,bc
 
 ; get movable directions of the field
-        ld      b,0     ; •ûŒü(DIR_UP|DIR_DN|DIR_LT|DIR_RT)
-        ld      c,0     ; •ûŒü”(0`4)
+        ld      b,0     ; ç§»å‹•å¯èƒ½æ–¹å‘bit(DIR_UP|DIR_DN|DIR_LT|DIR_RT)
+        ld      c,0     ; ç§»å‹•å¯èƒ½æ–¹å‘æ•°(0-4)
 
 getflddir_up:
         ld      a, d
