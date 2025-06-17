@@ -44,4 +44,4 @@ ZX81上でのBASIC処理の遅さをご存じの方は<br/>
 <br/>
 <br/>
 2025年6月17日追記<br/>
-![PLAY画面](canoe.png?raw=true)
+![PLAY画面](Canoe.png?raw=true)
