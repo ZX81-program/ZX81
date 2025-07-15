@@ -44,8 +44,10 @@
 <br/>
 <br/>
 2025年7月15日追記<br/><br/>
-![TITLE画面](RallyZxPlay.png?raw=true)<br/>
-![PLAY画面](RallyZxTitle.png?raw=true)<br/>
+![TITLE画面](RallyZxPlay.png?raw=true)
+<br/>
+![PLAY画面](RallyZxTitle.png?raw=true)
+<br/>
 
 
 
