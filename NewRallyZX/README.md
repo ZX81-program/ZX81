@@ -21,7 +21,7 @@
 <br/>
 <br/>
 【ZX81エミュレータで実行】<br/>
- a.Pファイルが出来上がるので、ZX81シミュレータを起動し<br/>
+  a.Pファイルが出来上がるので、ZX81シミュレータを起動し<br/>
 「file]-[Open Tape...」にて読み込んで起動します。<br/>
 <br/>
 <br/>
@@ -42,9 +42,9 @@
 <br/>
 <br/>
 2025年7月15日追記<br/><br/>
-![TITLE画面](RallyZxPlay.png?raw=true)
+![TITLE画面](RallyZxTitle.png?raw=true)
 <br/>
-![PLAY画面](RallyZxTitle.png?raw=true)
+![PLAY画面](RallyZxPlay.png?raw=true)
 <br/>
 
 
