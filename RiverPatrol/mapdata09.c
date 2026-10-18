@@ -1,0 +1,81 @@
+/*
+ *      ZX81 Map Data Module (Round 9)
+ */
+
+#include "mapdata.h"
+#include "objects.h"
+
+// river data
+unsigned char rock_tbl09[250] = {
+  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+  0,  0,  0,  0,  0,  0,  0,  0, 16,  0,
+  0,  0, 13,  0,  1,  1,  0,  0, 32,  0,
+  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,
+  2,  0,  0, 16,  0, 13,  0,  0,  0, 25,
+  0,  0,  0, 16,  0,  0,  0,  0,  2,  0,
+  0,  0,  0, 34,  0,  1,  0,  0, 13, 25,
+  0,  1, 16,  0,  0,  0,  2, 70,  2, 70,
+  2,  0,  0, 13,  1, 25,  0,  0,  0, 52,
+  0, 13, 25,  0,  0,  0,  1,  0, 34, 32,
+  0,  0, 16,  0, 13,  0,  2,  0,  0,  1,
+  0,  2, 65,  0,  0,  1,  0,  0, 52,  0,
+131,  0, 32,  0, 34,  0,  0, 13, 21, 21,
+ 13,  0,  0, 65,  0, 17,  0, 34, 65,  0,
+  0, 21, 43,  0,  0,  0, 65,  1, 17,  0,
+  0, 13, 21, 20, 32,  0,  0,  0,  0,  1,
+ 16, 32,  0,  0,  0,  0,  0, 21, 51, 16,
+  0,  0,  0,  0, 13, 65,  0, 34,  0,  0,
+  0, 13, 16,  0, 34,  1, 65,  0,  2,  0,
+  0,  0, 52,  0,  2, 65,  0,  0,  1, 25,
+  0, 34,  0,  0,  0,  2,  0,  0,  1, 16,
+ 32,  0, 13, 25,  0,  0,  1,  0,  2, 34,
+  0,  0, 32, 13,  0,  1, 17, 89, 17,  1,
+ 13, 13, 21, 13,  0, 72,103,  0,  0,  0,
+  0,  0,  0,  0,  0,  0,  0,  0,  0,  0
+};
+
+struct SPAWN_TBL spawn_tbl09[]  = {
+{18,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{23,SPAWN_ATTR(10,OBJ_DRIFTER)},
+{32,SPAWN_ATTR(13,OBJ_DRIFTER)},
+{33,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{37,SPAWN_ATTR(6,OBJ_DRIFTER)},
+{44,SPAWN_ATTR(6,OBJ_DRIFTER)},
+{50,SPAWN_ATTR(12,OBJ_DRIFTER)},
+{52,SPAWN_ATTR(4,OBJ_DRIFTER)},
+{56,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{62,SPAWN_ATTR(9,OBJ_WHIRL)},
+{73,SPAWN_ATTR(9,OBJ_DRIFTER)},
+{76,SPAWN_ATTR(12,OBJ_ENEMY)},
+{88,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{92,SPAWN_ATTR(12,OBJ_DRIFTER)},
+{96,SPAWN_ATTR(8,OBJ_CROC)},
+{102,SPAWN_ATTR(7,OBJ_ENEMY)},
+{106,SPAWN_ATTR(13,OBJ_DRIFTER)},
+{110,SPAWN_ATTR(5,OBJ_DRIFTER)},
+{116,SPAWN_ATTR(10,OBJ_DRIFTER)},
+{120,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{123,SPAWN_ATTR(13,OBJ_DRIFTER)},
+{128,SPAWN_ATTR(13,OBJ_CROC)},
+{130,SPAWN_ATTR(10,OBJ_WHIRL)},
+{132,SPAWN_ATTR(12,OBJ_DRIFTER)},
+{137,SPAWN_ATTR(4,OBJ_ENEMY)},
+{143,SPAWN_ATTR(12,OBJ_RAFT)},
+{149,SPAWN_ATTR(8,OBJ_DRIFTER)},
+{159,SPAWN_ATTR(7,OBJ_WHIRL)},
+{162,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{165,SPAWN_ATTR(9,OBJ_CROC)},
+{171,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{174,SPAWN_ATTR(12,OBJ_RAFT)},
+{178,SPAWN_ATTR(12,OBJ_DRIFTER)},
+{188,SPAWN_ATTR(13,OBJ_DRIFTER)},
+{191,SPAWN_ATTR(7,OBJ_DRIFTER)},
+{198,SPAWN_ATTR(11,OBJ_DRIFTER)},
+{199,SPAWN_ATTR(9,OBJ_CROC)},
+{202,SPAWN_ATTR(4,OBJ_DRIFTER)},
+{206,SPAWN_ATTR(5,OBJ_DRIFTER)},
+{213,SPAWN_ATTR(10,OBJ_DRIFTER)},
+{217,SPAWN_ATTR(6,OBJ_RAFT)},
+{222,SPAWN_ATTR(6,OBJ_DRIFTER)},
+{0,SPAWN_ATTR(0, OBJ_NONE)}
+};
