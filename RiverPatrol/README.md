@@ -85,11 +85,11 @@ File → Open Tape...
 
 ### タイトル画面
 
-RiverPatrolTitle.png
+![タイトル画面](RiverPatrolTitle.png)
 
 ### プレイ画面
 
-RiverPatrolPlay.png
+![プレイ画面](RiverPatrolPlay.png)
 
 ## 開発記録
 
